@@ -1,0 +1,459 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.Bechoflex.ColorfulBall3D"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="1.0.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00030000" />
+19-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-54
+19-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:19-51
+20    <uses-feature
+20-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:5-15:36
+21        android:name="android.hardware.vulkan.version"
+21-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:9-55
+22        android:required="false" />
+22-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:9-33
+23    <uses-feature
+23-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:16:5-18:36
+24        android:name="android.hardware.touchscreen"
+24-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:9-52
+25        android:required="false" />
+25-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:9-33
+26    <uses-feature
+26-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:5-21:36
+27        android:name="android.hardware.touchscreen.multitouch"
+27-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:9-63
+28        android:required="false" />
+28-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:9-33
+29    <uses-feature
+29-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:5-24:36
+30        android:name="android.hardware.touchscreen.multitouch.distinct"
+30-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:9-72
+31        android:required="false" />
+31-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:9-33
+32
+33    <uses-permission android:name="android.permission.WAKE_LOCK" />
+33-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:19:3-66
+33-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:19:20-63
+34    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+34-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:20:3-77
+34-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:20:20-74
+35    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+35-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:22:3-75
+35-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:22:20-72
+36    <uses-permission android:name="android.permission.INTERNET" />
+36-->[:googlemobileads-unity:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\d436c1e2bf8af0a40e79b59451fa9893\googlemobileads-unity\AndroidManifest.xml:12:5-67
+36-->[:googlemobileads-unity:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\d436c1e2bf8af0a40e79b59451fa9893\googlemobileads-unity\AndroidManifest.xml:12:22-64
+37    <uses-permission android:name="com.google.android.gms.permission.AD_ID" /> <!-- Android package visibility setting -->
+37-->[:com.google.android.gms.play-services-measurement-sdk-api-20.1.2:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\ccfbeb49b48775c04399190534146ee9\com.google.android.gms.play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:26:5-79
+37-->[:com.google.android.gms.play-services-measurement-sdk-api-20.1.2:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\ccfbeb49b48775c04399190534146ee9\com.google.android.gms.play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:26:22-76
+38    <queries>
+38-->[:com.google.android.gms.play-services-ads-lite-22.2.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\a6ee8b9c4896a3f1dfd02f31da501031\com.google.android.gms.play-services-ads-lite-22.2.0\AndroidManifest.xml:25:3-38:13
+39
+40        <!-- For browser content -->
+41        <intent>
+41-->[:com.google.android.gms.play-services-ads-lite-22.2.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\a6ee8b9c4896a3f1dfd02f31da501031\com.google.android.gms.play-services-ads-lite-22.2.0\AndroidManifest.xml:27:5-31:14
+42            <action android:name="android.intent.action.VIEW" />
+42-->[:com.google.android.gms.play-services-ads-lite-22.2.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\a6ee8b9c4896a3f1dfd02f31da501031\com.google.android.gms.play-services-ads-lite-22.2.0\AndroidManifest.xml:28:7-59
+42-->[:com.google.android.gms.play-services-ads-lite-22.2.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\a6ee8b9c4896a3f1dfd02f31da501031\com.google.android.gms.play-services-ads-lite-22.2.0\AndroidManifest.xml:28:15-56
+43
+44            <category android:name="android.intent.category.BROWSABLE" />
+44-->[:com.google.android.gms.play-services-ads-lite-22.2.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\a6ee8b9c4896a3f1dfd02f31da501031\com.google.android.gms.play-services-ads-lite-22.2.0\AndroidManifest.xml:29:7-68
+44-->[:com.google.android.gms.play-services-ads-lite-22.2.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\a6ee8b9c4896a3f1dfd02f31da501031\com.google.android.gms.play-services-ads-lite-22.2.0\AndroidManifest.xml:29:17-65
+45
+46            <data android:scheme="https" />
+46-->[:com.google.android.gms.play-services-ads-lite-22.2.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\a6ee8b9c4896a3f1dfd02f31da501031\com.google.android.gms.play-services-ads-lite-22.2.0\AndroidManifest.xml:30:7-38
+46-->[:com.google.android.gms.play-services-ads-lite-22.2.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\a6ee8b9c4896a3f1dfd02f31da501031\com.google.android.gms.play-services-ads-lite-22.2.0\AndroidManifest.xml:30:13-35
+47        </intent>
+48        <!-- End of browser content -->
+49        <!-- For CustomTabsService -->
+50        <intent>
+50-->[:com.google.android.gms.play-services-ads-lite-22.2.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\a6ee8b9c4896a3f1dfd02f31da501031\com.google.android.gms.play-services-ads-lite-22.2.0\AndroidManifest.xml:27:5-31:14
+51            <action android:name="android.support.customtabs.action.CustomTabsService" />
+52        </intent>
+53        <!-- End of CustomTabsService -->
+54    </queries>
+55
+56    <application
+56-->C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
+57        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+57-->[:androidx.core.core-1.6.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\736821b08ce43c689e56359e237cf55e\androidx.core.core-1.6.0\AndroidManifest.xml:24:18-86
+58        android:extractNativeLibs="true"
+58-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:18-50
+59        android:icon="@mipmap/app_icon"
+59-->C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+60        android:label="@string/app_name" >
+60-->C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+61        <activity
+61-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:9-47:20
+62            android:name="com.unity3d.player.UnityPlayerActivity"
+62-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:13-66
+63            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+63-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:13-194
+64            android:hardwareAccelerated="false"
+64-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:13-48
+65            android:launchMode="singleTask"
+65-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:13-44
+66            android:resizeableActivity="false"
+66-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:13-47
+67            android:screenOrientation="userPortrait"
+67-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:13-53
+68            android:theme="@style/UnityThemeSelector" >
+68-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:13-54
+69            <intent-filter>
+69-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:13-39:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:17-69
+70-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:25-66
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:17-77
+72-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:27-74
+73            </intent-filter>
+74
+75            <meta-data
+75-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:41:13-43:40
+76                android:name="unityplayer.UnityActivity"
+76-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:17-57
+77                android:value="true" />
+77-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:17-37
+78            <meta-data
+78-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:13-46:40
+79                android:name="android.notch_support"
+79-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:17-53
+80                android:value="true" />
+80-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:17-37
+81        </activity>
+82
+83        <meta-data
+83-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:9-51:33
+84            android:name="unity.splash-mode"
+84-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:13-45
+85            android:value="0" />
+85-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:13-30
+86        <meta-data
+86-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:9-54:36
+87            android:name="unity.splash-enable"
+87-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:13-47
+88            android:value="True" />
+88-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:13-33
+89        <meta-data
+89-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:9-57:36
+90            android:name="unity.launch-fullscreen"
+90-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:13-51
+91            android:value="True" />
+91-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:13-33
+92        <meta-data
+92-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:9-60:37
+93            android:name="unity.allow-resizable-window"
+93-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:13-56
+94            android:value="False" />
+94-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:13-34
+95        <meta-data
+95-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:9-63:50
+96            android:name="notch.config"
+96-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:13-40
+97            android:value="portrait|landscape" />
+97-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:13-47
+98        <meta-data
+98-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:9-66:36
+99            android:name="unity.auto-report-fully-drawn"
+99-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:13-57
+100            android:value="true" />
+100-->[:unityLibrary] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:13-33
+101
+102        <provider
+102-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:24:5-26:16
+103            android:name="androidx.startup.InitializationProvider"
+103-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:24:15-69
+104            android:authorities="com.Bechoflex.ColorfulBall3D.androidx-startup"
+104-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:24:70-137
+105            android:exported="false" >
+105-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:24:138-162
+106            <meta-data
+106-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:25:7-105
+107                android:name="androidx.work.WorkManagerInitializer"
+107-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:25:18-69
+108                android:value="androidx.startup" />
+108-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:25:70-102
+109        </provider>
+110
+111        <service
+111-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:27:5-229
+112            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+112-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:27:14-89
+113            android:directBootAware="false"
+113-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:27:90-121
+114            android:enabled="@bool/enable_system_alarm_service_default"
+114-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:27:122-181
+115            android:exported="false" />
+115-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:27:182-206
+116        <service
+116-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:28:5-279
+117            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+117-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:28:14-85
+118            android:directBootAware="false"
+118-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:28:86-117
+119            android:enabled="@bool/enable_system_job_service_default"
+119-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:28:118-175
+120            android:exported="true"
+120-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:28:176-199
+121            android:permission="android.permission.BIND_JOB_SERVICE" />
+121-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:28:200-256
+122        <service
+122-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:29:5-227
+123            android:name="androidx.work.impl.foreground.SystemForegroundService"
+123-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:29:14-82
+124            android:directBootAware="false"
+124-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:29:83-114
+125            android:enabled="@bool/enable_system_foreground_service_default"
+125-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:29:115-179
+126            android:exported="false" />
+126-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:29:180-204
+127
+128        <receiver
+128-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:30:5-193
+129            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+129-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:30:15-90
+130            android:directBootAware="false"
+130-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:30:91-122
+131            android:enabled="true"
+131-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:30:123-145
+132            android:exported="false" />
+132-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:30:146-170
+133        <receiver
+133-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:31:5-36:16
+134            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+134-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:31:15-108
+135            android:directBootAware="false"
+135-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:31:109-140
+136            android:enabled="false"
+136-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:31:141-164
+137            android:exported="false" >
+137-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:31:165-189
+138            <intent-filter>
+138-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:32:7-35:23
+139                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+139-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:33:9-79
+139-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:33:17-76
+140                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+140-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:34:9-82
+140-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:34:17-79
+141            </intent-filter>
+142        </receiver>
+143        <receiver
+143-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:37:5-42:16
+144            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+144-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:37:15-106
+145            android:directBootAware="false"
+145-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:37:107-138
+146            android:enabled="false"
+146-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:37:139-162
+147            android:exported="false" >
+147-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:37:163-187
+148            <intent-filter>
+148-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:38:7-41:23
+149                <action android:name="android.intent.action.BATTERY_OKAY" />
+149-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:39:9-69
+149-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:39:17-66
+150                <action android:name="android.intent.action.BATTERY_LOW" />
+150-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:40:9-68
+150-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:40:17-65
+151            </intent-filter>
+152        </receiver>
+153        <receiver
+153-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:43:5-48:16
+154            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+154-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:43:15-106
+155            android:directBootAware="false"
+155-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:43:107-138
+156            android:enabled="false"
+156-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:43:139-162
+157            android:exported="false" >
+157-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:43:163-187
+158            <intent-filter>
+158-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:44:7-47:23
+159                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+159-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:45:9-75
+159-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:45:17-72
+160                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+160-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:46:9-74
+160-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:46:17-71
+161            </intent-filter>
+162        </receiver>
+163        <receiver
+163-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:49:5-53:16
+164            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+164-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:49:15-105
+165            android:directBootAware="false"
+165-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:49:106-137
+166            android:enabled="false"
+166-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:49:138-161
+167            android:exported="false" >
+167-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:49:162-186
+168            <intent-filter>
+168-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:50:7-52:23
+169                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+169-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:51:9-71
+169-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:51:17-68
+170            </intent-filter>
+171        </receiver>
+172        <receiver
+172-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:54:5-60:16
+173            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+173-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:54:15-90
+174            android:directBootAware="false"
+174-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:54:91-122
+175            android:enabled="false"
+175-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:54:123-146
+176            android:exported="false" >
+176-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:54:147-171
+177            <intent-filter>
+177-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:55:7-59:23
+178                <action android:name="android.intent.action.BOOT_COMPLETED" />
+178-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:56:9-71
+178-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:56:17-68
+179                <action android:name="android.intent.action.TIME_SET" />
+179-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:57:9-65
+179-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:57:17-62
+180                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+180-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:58:9-73
+180-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:58:17-70
+181            </intent-filter>
+182        </receiver>
+183        <receiver
+183-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:61:5-65:16
+184            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+184-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:61:15-101
+185            android:directBootAware="false"
+185-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:61:102-133
+186            android:enabled="@bool/enable_system_alarm_service_default"
+186-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:61:134-193
+187            android:exported="false" >
+187-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:61:194-218
+188            <intent-filter>
+188-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:62:7-64:23
+189                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+189-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:63:9-90
+189-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:63:17-87
+190            </intent-filter>
+191        </receiver>
+192        <receiver
+192-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:66:5-70:16
+193            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+193-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:66:15-80
+194            android:directBootAware="false"
+194-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:66:81-112
+195            android:enabled="true"
+195-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:66:113-135
+196            android:exported="true"
+196-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:66:136-159
+197            android:permission="android.permission.DUMP" >
+197-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:66:160-204
+198            <intent-filter>
+198-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:67:7-69:23
+199                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+199-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:68:9-80
+199-->[:androidx.work.work-runtime-2.7.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\367efae8202810ff7d5417fa06f9ae81\androidx.work.work-runtime-2.7.0\AndroidManifest.xml:68:17-77
+200            </intent-filter>
+201        </receiver>
+202
+203        <service
+203-->[:androidx.room.room-runtime-2.2.5:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\28e9fb3eede996dd8d91f8bfd7ee4a2a\androidx.room.room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+204            android:name="androidx.room.MultiInstanceInvalidationService"
+204-->[:androidx.room.room-runtime-2.2.5:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\28e9fb3eede996dd8d91f8bfd7ee4a2a\androidx.room.room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+205            android:directBootAware="true"
+205-->[:androidx.room.room-runtime-2.2.5:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\28e9fb3eede996dd8d91f8bfd7ee4a2a\androidx.room.room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+206            android:exported="false" />
+206-->[:androidx.room.room-runtime-2.2.5:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\28e9fb3eede996dd8d91f8bfd7ee4a2a\androidx.room.room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+207
+208        <meta-data
+208-->[:com.google.android.gms.play-services-basement-18.0.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\c158dbe6bad5056979dbf1ee0625408f\com.google.android.gms.play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+209            android:name="com.google.android.gms.version"
+209-->[:com.google.android.gms.play-services-basement-18.0.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\c158dbe6bad5056979dbf1ee0625408f\com.google.android.gms.play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+210            android:value="@integer/google_play_services_version" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+210-->[:com.google.android.gms.play-services-basement-18.0.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\c158dbe6bad5056979dbf1ee0625408f\com.google.android.gms.play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+211        <activity
+211-->[:com.google.android.gms.play-services-ads-lite-22.2.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\a6ee8b9c4896a3f1dfd02f31da501031\com.google.android.gms.play-services-ads-lite-22.2.0\AndroidManifest.xml:41:5-282
+212            android:name="com.google.android.gms.ads.AdActivity"
+212-->[:com.google.android.gms.play-services-ads-lite-22.2.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\a6ee8b9c4896a3f1dfd02f31da501031\com.google.android.gms.play-services-ads-lite-22.2.0\AndroidManifest.xml:41:15-67
+213            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+213-->[:com.google.android.gms.play-services-ads-lite-22.2.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\a6ee8b9c4896a3f1dfd02f31da501031\com.google.android.gms.play-services-ads-lite-22.2.0\AndroidManifest.xml:41:68-177
+214            android:exported="false"
+214-->[:com.google.android.gms.play-services-ads-lite-22.2.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\a6ee8b9c4896a3f1dfd02f31da501031\com.google.android.gms.play-services-ads-lite-22.2.0\AndroidManifest.xml:41:178-202
+215            android:theme="@android:style/Theme.Translucent" />
+215-->[:com.google.android.gms.play-services-ads-lite-22.2.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\a6ee8b9c4896a3f1dfd02f31da501031\com.google.android.gms.play-services-ads-lite-22.2.0\AndroidManifest.xml:41:203-251
+216
+217        <provider
+217-->[:com.google.android.gms.play-services-ads-lite-22.2.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\a6ee8b9c4896a3f1dfd02f31da501031\com.google.android.gms.play-services-ads-lite-22.2.0\AndroidManifest.xml:42:5-231
+218            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+218-->[:com.google.android.gms.play-services-ads-lite-22.2.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\a6ee8b9c4896a3f1dfd02f31da501031\com.google.android.gms.play-services-ads-lite-22.2.0\AndroidManifest.xml:42:15-78
+219            android:authorities="com.Bechoflex.ColorfulBall3D.mobileadsinitprovider"
+219-->[:com.google.android.gms.play-services-ads-lite-22.2.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\a6ee8b9c4896a3f1dfd02f31da501031\com.google.android.gms.play-services-ads-lite-22.2.0\AndroidManifest.xml:42:79-151
+220            android:exported="false"
+220-->[:com.google.android.gms.play-services-ads-lite-22.2.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\a6ee8b9c4896a3f1dfd02f31da501031\com.google.android.gms.play-services-ads-lite-22.2.0\AndroidManifest.xml:42:152-176
+221            android:initOrder="100" />
+221-->[:com.google.android.gms.play-services-ads-lite-22.2.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\a6ee8b9c4896a3f1dfd02f31da501031\com.google.android.gms.play-services-ads-lite-22.2.0\AndroidManifest.xml:42:177-200
+222
+223        <service
+223-->[:com.google.android.gms.play-services-ads-lite-22.2.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\a6ee8b9c4896a3f1dfd02f31da501031\com.google.android.gms.play-services-ads-lite-22.2.0\AndroidManifest.xml:43:5-144
+224            android:name="com.google.android.gms.ads.AdService"
+224-->[:com.google.android.gms.play-services-ads-lite-22.2.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\a6ee8b9c4896a3f1dfd02f31da501031\com.google.android.gms.play-services-ads-lite-22.2.0\AndroidManifest.xml:43:14-65
+225            android:enabled="true"
+225-->[:com.google.android.gms.play-services-ads-lite-22.2.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\a6ee8b9c4896a3f1dfd02f31da501031\com.google.android.gms.play-services-ads-lite-22.2.0\AndroidManifest.xml:43:66-88
+226            android:exported="false" />
+226-->[:com.google.android.gms.play-services-ads-lite-22.2.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\a6ee8b9c4896a3f1dfd02f31da501031\com.google.android.gms.play-services-ads-lite-22.2.0\AndroidManifest.xml:43:89-113
+227
+228        <activity
+228-->[:com.google.android.gms.play-services-ads-lite-22.2.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\a6ee8b9c4896a3f1dfd02f31da501031\com.google.android.gms.play-services-ads-lite-22.2.0\AndroidManifest.xml:44:5-250
+229            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+229-->[:com.google.android.gms.play-services-ads-lite-22.2.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\a6ee8b9c4896a3f1dfd02f31da501031\com.google.android.gms.play-services-ads-lite-22.2.0\AndroidManifest.xml:44:15-84
+230            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+230-->[:com.google.android.gms.play-services-ads-lite-22.2.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\a6ee8b9c4896a3f1dfd02f31da501031\com.google.android.gms.play-services-ads-lite-22.2.0\AndroidManifest.xml:44:85-194
+231            android:exported="false" />
+231-->[:com.google.android.gms.play-services-ads-lite-22.2.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\a6ee8b9c4896a3f1dfd02f31da501031\com.google.android.gms.play-services-ads-lite-22.2.0\AndroidManifest.xml:44:195-219
+232        <activity
+232-->[:com.google.android.gms.play-services-base-18.0.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\cbfc7c205ff3d80fc876617f18edfe99\com.google.android.gms.play-services-base-18.0.0\AndroidManifest.xml:20:9-22:45
+233            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+233-->[:com.google.android.gms.play-services-base-18.0.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\cbfc7c205ff3d80fc876617f18edfe99\com.google.android.gms.play-services-base-18.0.0\AndroidManifest.xml:20:19-85
+234            android:exported="false"
+234-->[:com.google.android.gms.play-services-base-18.0.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\cbfc7c205ff3d80fc876617f18edfe99\com.google.android.gms.play-services-base-18.0.0\AndroidManifest.xml:22:19-43
+235            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+235-->[:com.google.android.gms.play-services-base-18.0.0:] C:\Users\berka\.gradle\caches\transforms-2\files-2.1\cbfc7c205ff3d80fc876617f18edfe99\com.google.android.gms.play-services-base-18.0.0\AndroidManifest.xml:21:19-78
+236
+237        <uses-library
+237-->[:unityLibrary:GoogleMobileAdsPlugin.androidlib] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\build\intermediates\library_manifest\release\AndroidManifest.xml:12:9-14:40
+238            android:name="org.apache.http.legacy"
+238-->[:unityLibrary:GoogleMobileAdsPlugin.androidlib] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\build\intermediates\library_manifest\release\AndroidManifest.xml:13:13-50
+239            android:required="false" />
+239-->[:unityLibrary:GoogleMobileAdsPlugin.androidlib] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\build\intermediates\library_manifest\release\AndroidManifest.xml:14:13-37
+240
+241        <meta-data
+241-->[:unityLibrary:GoogleMobileAdsPlugin.androidlib] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\build\intermediates\library_manifest\release\AndroidManifest.xml:16:9-18:70
+242            android:name="com.google.android.gms.ads.APPLICATION_ID"
+242-->[:unityLibrary:GoogleMobileAdsPlugin.androidlib] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\build\intermediates\library_manifest\release\AndroidManifest.xml:17:13-69
+243            android:value="ca-app-pub-3940256099942544/6300978111" />
+243-->[:unityLibrary:GoogleMobileAdsPlugin.androidlib] C:\Users\berka\Desktop\ColorfulBall3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\GoogleMobileAdsPlugin.androidlib\build\intermediates\library_manifest\release\AndroidManifest.xml:18:13-67
+244    </application>
+245
+246</manifest>
